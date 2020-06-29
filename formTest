@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <p>
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="index.html">Home</a> |
+            <a href="layoutPage.html">Web Page Layout</a>
+        </p>
+    </nav>
+    
+    <header>
+    <h1>Ann Hagan</h1>
+    
+    <h2 id="name">Form testing</h2>
+    </header>
+    
+    <section>
+        <!--get method will put data in the webbrowswer, very unsecure-->
+        <form method="post" action="mailto:BASICEMAIL@gmail.com" target="_blank"
+        encrypt="text/plain" autocomplete="on">
+        <div>
+        <label for="first">First:</label>:
+            <input type="text" name="first" id="first"
+            placeholder="First name">
+        </div>
+        <div>
+        <label for="last">Last:</label>:
+            <input type="text" name="last" id="last"
+            placeholder="Last Name" required>
+        </div>
+        <div>
+        <label for="email">Email:</label>:
+            <input type="email" name="email" id="email"
+            placeholder="Email Address" required>
+
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+
+
+
+    </section>
+
+
+</body>
+</html>
